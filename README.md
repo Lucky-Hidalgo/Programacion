@@ -1,2 +1,2 @@
-# FCYP
-Códigos del curso de FCYP-USACH
+# Programacion
+Códigos básicos de programación
