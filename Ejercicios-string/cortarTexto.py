@@ -10,33 +10,33 @@ Lenguaje: Python
 # SALIDA: (lista de string)
 def cortar(texto, car):
 	# Se declara una lista auxiliar para almacenar el resultado
-    resultado = []
+	resultado = []
 	# Se declara un contador para recorrer el texto 
-    i  = 0
+	i  = 0
 	# Se declara un aux para almacenar los strings 
 	# antes de llegar al caracter de corte 
-    aux = ""
+	aux = ""
 	# Mientras i no alcance el final del texto 
-    while i < len(texto):
+	while i < len(texto):
 		# Si el caracter de corte es igual al
 		# texto en la posición i
-        if car == texto[i]:
+		if car == texto[i]:
 			# Se agrega lo que llevo en el texto
 			# a la lista 
-            resultado.append(aux)
+			resultado.append(aux)
 			# Se vacía el texto para comenzar de nuevo
-            aux = ""
+			aux = ""
 			# Se incrementa el contador 
-            i = i  + 1
+			i = i  + 1
 		# En caso contrario
-        else :
+		else :
 			# Se agrega el caracter  en la posición i 
 			# del texto a aux 
-            aux = aux + texto[i]
+			aux = aux + texto[i]
 			# Se incrementa el contador 
-            i = i + 1
+			i = i + 1
 	# Se agrega el resultado de lo quedaba en aux
 	# a la lista 
-    resultado.append(aux)
+	resultado.append(aux)
 	# Se retorna la lista resultado
-    return resultado
+	return resultado
