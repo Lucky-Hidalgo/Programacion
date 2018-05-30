@@ -12,16 +12,15 @@ i = 2
 # Mientras el número no alcance el valor 1
 while numero > 1 :
 	# Si el número es divisible por el contador 
-    if numero % i == 0 :
+	if numero % i == 0 :
 		# Se imprime el número 
-        print i,
+		print i,
 		# Se descompone el número al dividirlo por el
 		# valor actual del contador
-        numero = numero / i
-    # En caso contrario, ya se descompuso el número
+		numero = numero / i
+	# En caso contrario, ya se descompuso el número
 	# todo lo posible por ese valor de contador
 	# por lo que se incrementa el contador
 	else :
 		# Incremento el contador
-        i = i + 1
-        
+		i = i + 1
